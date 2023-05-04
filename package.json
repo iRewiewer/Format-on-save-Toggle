@@ -30,31 +30,6 @@
     "onStartupFinished"
   ],
   "main": "./out/extension.js",
-  "contributes": {
-    "viewsContainers": {
-      "activitybar": [
-        {
-          "id": "toggle-format-on-container",
-          "title": "Toggle format-on",
-          "icon": "resources/toggle-format-on.svg"
-        }
-      ]
-    },
-    "views": {
-      "toggle-format-on-container": [
-        {
-          "id": "toggle-format-on-view",
-          "name": ""
-        }
-      ]
-    },
-    "viewsWelcome": [
-      {
-        "view": "toggle-format-on-view",
-        "contents": "[Format on save](command:formatonactivitybar.formatonsave)\n[Format on paste](command:formatonactivitybar.formatonpaste)"
-      }
-    ]
-  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
