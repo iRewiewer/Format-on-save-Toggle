@@ -1,21 +1,57 @@
 {
-  "name": "formatonactivitybar",
-  "displayName": "FormatOnActivityBar",
-  "description": "Button for toggling auto-formatting.",
+  "name": "toggle-format-on",
+  "displayName": "Toggle Format-On",
+  "description": "Button for quickly toggling auto-formatting.",
+  "keywords": [
+    "toggle",
+    "toggler",
+    "button",
+    "format",
+    "format-on",
+    "on",
+    "keybind",
+    "keybinder"
+  ],
   "version": "0.0.1",
+  "license": "GNU General Public License v3.0",
+  "publisher": "iRewiewer",
   "engines": {
     "vscode": "^1.78.0"
+  },
+  "repository": "https://github.com/iRewiewer/FormatOnActivityBar",
+  "bugs": {
+    "url": "https://github.com/iRewiewer/FormatOnActivityBar/issues",
+    "email": "irewiewer@gmail.com"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "toggle-format-on-container",
+          "title": "Toggle format-on",
+          "icon": "resources/toggle-format-on.svg"
+        }
+      ]
+    },
+    "views": {
+      "toggle-format-on-container": [
+        {
+          "id": "toggle-format-on-view",
+          "name": ""
+        }
+      ]
+    },
+    "viewsWelcome": [
       {
-        "command": "formatonactivitybar.helloWorld",
-        "title": "Hello World"
+        "view": "toggle-format-on-view",
+        "contents": "[Format on save](command:formatonactivitybar.formatonsave)\n[Format on paste](command:formatonactivitybar.formatonpaste)"
       }
     ]
   },
