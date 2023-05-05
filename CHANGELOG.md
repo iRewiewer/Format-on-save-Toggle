@@ -1,9 +1,9 @@
 # Change Log
 
-All notable changes to the "formatonactivitybar" extension will be documented in this file.
+### [1.0.2]
+#### Added:
+- Icon (might need changing again)
+- Changed name for better searchability
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+### [1.0.0]
+#### Initial Application
