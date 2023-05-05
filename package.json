@@ -1,19 +1,22 @@
 {
   "name": "format-on-save-toggle",
-  "displayName": "Format-on-save Toggle",
+  "displayName": "Format on save Toggle",
   "description": "Status bar button for quickly toggling formatting on-save.",
+  "icon": "resources/logo.png",
   "keywords": [
     "toggle",
     "toggler",
     "button",
     "format",
-    "format-on",
     "on",
     "save",
     "keybind",
-    "keybinder"
+    "keybinder",
+    "status",
+    "status bar",
+    "bar"
   ],
-  "version": "0.0.1",
+  "version": "1.0.2",
   "license": "GNU General Public License v3.0",
   "publisher": "iRewiewer",
   "engines": {
@@ -21,8 +24,7 @@
   },
   "repository": "https://github.com/iRewiewer/Format-on-save-Toggle",
   "bugs": {
-    "url": "https://github.com/iRewiewer/Format-on-save-Toggle/issues",
-    "email": "irewiewer@gmail.com"
+    "url": "https://github.com/iRewiewer/Format-on-save-Toggle/issues"
   },
   "categories": [
     "Other"
