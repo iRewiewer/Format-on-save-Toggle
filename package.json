@@ -1,7 +1,7 @@
 {
-  "name": "toggle-format-on",
-  "displayName": "Toggle Format-On",
-  "description": "Button for quickly toggling auto-formatting.",
+  "name": "format-on-save-toggle",
+  "displayName": "Format-on-save Toggle",
+  "description": "Status bar button for quickly toggling formatting on-save.",
   "keywords": [
     "toggle",
     "toggler",
@@ -9,6 +9,7 @@
     "format",
     "format-on",
     "on",
+    "save",
     "keybind",
     "keybinder"
   ],
@@ -18,9 +19,9 @@
   "engines": {
     "vscode": "^1.78.0"
   },
-  "repository": "https://github.com/iRewiewer/FormatOnActivityBar",
+  "repository": "https://github.com/iRewiewer/Format-on-save-Toggle",
   "bugs": {
-    "url": "https://github.com/iRewiewer/FormatOnActivityBar/issues",
+    "url": "https://github.com/iRewiewer/Format-on-save-Toggle/issues",
     "email": "irewiewer@gmail.com"
   },
   "categories": [
