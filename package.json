@@ -16,11 +16,11 @@
     "status bar",
     "bar"
   ],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "GNU General Public License v3.0",
   "publisher": "iRewiewer",
   "engines": {
-    "vscode": "^1.78.0"
+    "vscode": "^1.50.0"
   },
   "repository": "https://github.com/iRewiewer/Format-on-save-Toggle",
   "bugs": {
@@ -42,7 +42,7 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.78.0",
+    "@types/vscode": "^1.50.0",
     "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "16.x",
